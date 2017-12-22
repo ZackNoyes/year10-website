@@ -653,147 +653,342 @@ table {
 	border-radius: 4px;
 }
         </style>
-        <title>Year 10 IST - iOS Application Development</title>
+        <title>Year 10 IST - Assignment One</title>
     </head>
-    <body>
-        <a href="https://github.com/CanberraGrammar/year10-website" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+    <body class="toc2 toc-left">
+        <div id="header">
+            <div class="toc2" id="toc">
+                <div id="toctitle">Table of Contents</div>
+                <ul class="sectlevel1">
+<li><a href="#changelog">Changelog</a></li>
+<li><a href="#what-to-do">What to Do</a>
+<ul class="sectlevel2">
+<li><a href="#app-overview">App Overview</a>
+<ul class="sectlevel3">
+<li><a href="#extension-mark-band">Extension Mark Band</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#submission-instructions">Submission Instructions</a></li>
+<li><a href="#marking-guidelines">Marking Guidelines</a>
+<ul class="sectlevel2">
+<li><a href="#draft-submissions">Draft Submissions</a></li>
+<li><a href="#outcomes-assessment-criteria">Outcomes/Assessment Criteria</a></li>
+</ul>
+</li>
+<li><a href="#_academic_honesty">Academic Honesty</a>
+<ul class="sectlevel2">
+<li><a href="#reasonable">Reasonable</a></li>
+<li><a href="#not-reasonable">Not Reasonable</a></li>
+</ul>
+</li>
+</ul>
+            </div>
+        </div>
         <div id="content">
-            <h1>Year 10 IST - iOS Application Development</h1>
-<div class="sect3">
-<h4 id="canberra-grammar-school"><a class="link" href="#canberra-grammar-school">Canberra Grammar School</a></h4>
+            <h1>Year 10 IST - Assignment One</h1>
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph">
-<p>Matthew Purcell<br>
-<a href="mailto:matthew.purcell@cgs.act.edu.au">matthew.purcell@cgs.act.edu.au</a></p>
+<p><strong>Weight:</strong> 35%<br>
+<strong>Due:</strong> Monday 26 March 2018 (Week 8) by 8:45am</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="changelog"><a class="link" href="#changelog">Changelog</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This assignment was last updated on <strong>Friday 22 December 2017</strong>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="what-to-do"><a class="link" href="#what-to-do">What to Do</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Every week we have a lot of people visiting Canberra Grammar School. This might be because they are visiting a member of staff, attending a sport match over the weekend, or perhaps they are alumni and would like to take a look around the grounds. You are going to write a CGS Visitors App which allows visitors to CGS to have a self-guided tour around the campus.</p>
+</div>
+<div class="sect2">
+<h3 id="app-overview"><a class="link" href="#app-overview">App Overview</a></h3>
+<div class="paragraph">
+<p>This task does not require you to write any code - the intention of this assignment is to become familiar with Xcode, Storyboards, and Auto Layout. The app which you develop needs to work on any sized iPhone which supports iOS 11, in both portrait and landscape orientation. Additionally, it should also incorporate multiple screens - necessitating the need for you to also use a navigation controller with segues to move between screens. It&#8217;s likely that some screens (particularly on smaller devices) will be too small to display all the text at once, so you will also need to use scroll views.</p>
+</div>
+<div class="paragraph">
+<p>The app must not purely consist of text. A large part of your mark for this task is how you design the app to be aesthetic but also usable. Therefore, it is suggested that you go around the campus and take photos of various buildings, etc. which you can then include in your app as "stops" on the self-guided tour.</p>
+</div>
+<div class="paragraph">
+<p>It would also be worthwhile to do some research on the history of various buildings and parts of the school - as this could also make an interesting addition for the app.</p>
 </div>
 <div class="sect3">
-<h4 id="course-documents"><a class="link" href="#course-documents">Course Documents</a></h4>
+<h4 id="extension-mark-band"><a class="link" href="#extension-mark-band">Extension Mark Band</a></h4>
+<div class="paragraph">
+<p>Similar to last year, the final 5 marks of this task are reserved for an Extension Mark Band. This is designed to reward students who go above and beyond the requirements, often incorporating things which are beyond the scope of the course at this point in time, without disadvantaging other students (as, in the grand scheme of things, the last 5 marks of this task are not going to have a substantive impact on the final grades for this semester).</p>
+</div>
+<div class="paragraph">
+<p>If you wish to attempt an assignment which qualifies for the Extension Mark Band then you need to incorporate some kind of novel Swift coding into your app. Some suggestions of aspects which you may wish to consider are:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Need help? Visit the <a href="https://forum.cgscomputing.com" target="_blank">Year 10 forum</a>.</p>
+<p>Using MapKit to incorporate a map with points of interest.</p>
 </li>
 <li>
-<p><a href="course_overview/course_overview.html">Course Outline</a></p>
+<p>Incorporating an audio tour feature, where you record some narration which visitors can listen to as they tour the campus.</p>
+</li>
+<li>
+<p>If you <em>really</em> want to go overboard, incorporate ARKit and have augmented reality annotations appear over real-world objects (e.g. buildings) explaining their history, purpose, etc&#8230;&#8203;and maybe even superimpose future buildings as per the School&#8217;s master plan.</p>
 </li>
 </ul>
 </div>
-</div>
-<div class="sect3">
-<h4 id="lesson-summaries"><a class="link" href="#lesson-summaries">Lesson Summaries</a></h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://it1001.work" target="_blank">IT1001 Google Doc</a></p>
-</li>
-<li>
-<p><a href="http://it1002.work" target="_blank">IT1002 Google Doc</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>These are all just suggestions, you can alternatively choose to do something else. You may wish to check with Mr Purcell prior to embarking to ensure that your additional would qualify for this mark band, and would also be achievable.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="activities"><a class="link" href="#activities">Activities</a></h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="s1activities/activity1_tappity.html">Activity 1: Tappity</a></p>
-</li>
-<li>
-<p><a href="s1activities/activity2_tmg.html">Activity 2: The Memory Game</a></p>
-</li>
-</ul>
 </div>
 </div>
-<div class="sect3">
-<h4 id="assessment-tasks"><a class="link" href="#assessment-tasks">Assessment Tasks</a></h4>
-<div class="sect4">
-<h5 id="semester-two"><a class="link" href="#semester-two">Semester Two</a></h5>
+</div>
+<div class="sect1">
+<h2 id="submission-instructions"><a class="link" href="#submission-instructions">Submission Instructions</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This assignment is worth 35% of your Semester One assessment for this subject.</p>
+</div>
+<div class="paragraph">
+<p>You must place the following declaration (in the form of a comment) at the top of your ViewController.swift file:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>//
+// This project is submitted as part of the assessment for Year 10 IST.
+// This is all my own work. I have referenced any work used from other
+// sources and have not plagiarised the work of others.
+// (signed) Name here
+//</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To submit, ZIP your <strong>ENTIRE XCODE PROJECT FOLDER</strong> and upload to <a href="http://submit.cgscomputing.com/year10-s1assign1" target="_blank">http://submit.cgscomputing.com/year10-s1assign1</a>. Make sure to correctly enter your name and school email address, so that your submission can be located.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Make sure you ZIP the ENTIRE Xcode project folder. In the past, students have only ZIPed the <code>.xcodeproj</code> file which does not contain any of the app. It is very important that you send me the correct files. If you are unsure, ask Mr Purcell.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="marking-guidelines"><a class="link" href="#marking-guidelines">Marking Guidelines</a></h2>
+<div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 26.6666%;">
-<col style="width: 33.3333%;">
-<col style="width: 6.6668%;">
+<col style="width: 88.8888%;">
+<col style="width: 11.1112%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Task</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Published</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Due</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Weight</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Criteria</strong></p></td>
+<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Mark Range</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s2assign/index.html">Assignment: Project Pre-Proposal</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 31 July 2017 (Week 3)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 7 August 2017 (Week 4) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">0%*</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>ENRICHMENT / EXTENSION BAND</strong>
+</p><p class="tableblock"><strong>Submissions in this mark range will:</strong>
+</p><p class="tableblock">• meet all the requirements of the 35 - 31 mark band.
+</p><p class="tableblock"><strong>In addition, submissions in this mark range will:</strong>
+</p><p class="tableblock">• include functionality which is above and beyond the scope of this assignment, incorporating novel Swift coding.
+</p><p class="tableblock">Students who wish to attempt this band should speak with their teacher to ensure that their chosen functionality is sufficiently complex, but will also be achievable for their skill level.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">35 - 31</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s2assign/index.html">Assignment: Project Proposal</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 31 July 2017 (Week 3)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Thursday 24 August 2017 (Week 6) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">25%</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Submissions in this mark range will include all of the following:</strong>
+</p><p class="tableblock">• (A) a fully working set of Xcode project files.
+</p><p class="tableblock">• (B) excellent app design, both aesthetic and functional.
+</p><p class="tableblock">• (C) correct implementation of Auto Layout, navigation controller, view controllers, segues, and scroll views.
+</p><p class="tableblock"><strong>In addition, submissions in this mark range will include:</strong>
+</p><p class="tableblock">• work on all iPhone devices which support iOS 11, in both portrait and landscape orientation.
+</p><p class="tableblock">• appropriately uses navigation controller and segues, pushing view controllers and dismissing them from the navigation stack - keeping the stack clean.
+</p><p class="tableblock">• has no Auto Layout issues, warnings, or errors. Auto Layout displays all screen content correctly.
+</p><p class="tableblock">• correctly and appropriately uses user interface elements, such as labels and buttons.
+</p><p class="tableblock">• appropriate inclusion of photos and other imagery within the app, using the UIImageView interface element.
+</p><p class="tableblock">• be professionally presented.
+</p><p class="tableblock">• not crash or provide unusual error messages.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">30 - 25</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s2assign/index.html">Assignment: Project Status Update</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 31 July 2017 (Week 3)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Tuesday 10 October 2017 (Week 11) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">0%*</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Submissions in this mark range will include all of the following:</strong>
+</p><p class="tableblock">• a fully working set of Xcode project files.
+</p><p class="tableblock">• has at least three of the following: correct implementation of Auto Layout, navigation controller, view controllers, segues, and scroll views.
+</p><p class="tableblock">• work on most iPhone devices which support iOS 11, in both portrait and landscape orientation.
+</p><p class="tableblock">• appropriately uses navigation controller and segues, pushing view controllers and dismissing them from the navigation stack - keeping the stack clean.
+</p><p class="tableblock">• may have some Auto Layout issues, warnings, or errors - resulting in display inconsistencies.
+</p><p class="tableblock">• correctly and appropriately uses user interface elements, such as labels and buttons.
+</p><p class="tableblock">• appropriate inclusion of photos and other imagery within the app, using the UIImageView interface element.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">24 - 15</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s2assign/index.html">Assignment: Project Implementation</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 31 July 2017 (Week 3)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Thursday 26 October 2017 (Week 13) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">45%</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Submissions in this mark range will include all of the following:</strong>
+</p><p class="tableblock">• a mostly working set of Xcode project files.
+</p><p class="tableblock">• has at least two of the following: correct implementation of Auto Layout, navigation controller, view controllers, segues, and scroll views.
+</p><p class="tableblock">• works on some iPhone devices which support iOS 11, in both portrait and landscape orientation.
+</p><p class="tableblock">• appropriately uses navigation controller and segues, pushing view controllers and dismissing them from the navigation stack - keeping the stack clean.
+</p><p class="tableblock">• appropriate inclusion of photos and other imagery within the app, using the UIImageView interface element.
+</p><p class="tableblock">OR
+</p><p class="tableblock">• A non-working solution, but is a substantive attempt.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">14 - 10</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s2commontest/index.html">Common Test: iOS and Swift Development</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 9 October 2017 (Week 11)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Wednesday 1 November 2017 (Week 14)</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">30%</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect4">
-<h5 id="semester-one"><a class="link" href="#semester-one">Semester One</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 26.6666%;">
-<col style="width: 33.3333%;">
-<col style="width: 6.6668%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Task</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Published</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Due</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Weight</strong></p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">• A non-working solution.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">9 - 1</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s1assign1/index.html">Assignment: Swift Playgrounds</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Sunday 19 February 2017 (Week 3)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Tuesday 28 March 2017 (Week 9) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">30%</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s1assign2/index.html">Assignment: Game Development</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Tuesday 4 April 2017 (Week 10)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Thursday 18 May 2017 (Week 14) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">35%</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s1commontest/index.html">Common Test: iOS and Swift Development</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 15 May 2017 (Week 14)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 5 June 2017 (Week 17)</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">35%</p></td>
+<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">• A non-serious attempt at the task.
+</p><p class="tableblock">OR
+</p><p class="tableblock">• A submission that is plagiarised.</p></td>
+<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">0</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p><span class="footnote">Note that tasks denoted with an * are worth 0% of your final grade. These tasks are designed to keep the teachers apprised of your progress, and also keep you on track. These tasks only require you to answer a few questions about your project - they are not major tasks. However, <strong>they will contribute towards your effort grade for the subject</strong> so you need to treat these tasks seriously.</span></p>
+<p><strong>Late submissions will incur penalties as per the school assessment policy:</strong> Students will lose 10% of the total value of the assessment per day late, or part thereof. <strong>Be aware, if you do not submit your assignment by 8:45am on Monday 26 March 2018 that is counted as a day late and will attract the 10% penalty.</strong> Weekends equate to 2 days. On the second day of non submission parents will be informed. A student may be directed to study support to complete an overdue assessment task. After 4 days, a student who has not submitted an assessment task will receive an academic detention. Work completed during academic detention or submitted more than 4 days late will have 50% of the total value of the assessment deducted from the student&#8217;s score. If the work remains incomplete despite the academic detention, the student will receive zero marks for the task.</p>
+</div>
+<div class="sect2">
+<h3 id="draft-submissions"><a class="link" href="#draft-submissions">Draft Submissions</a></h3>
+<div class="paragraph">
+<p>You may optionally submit one draft of your assignment for review prior to formal submission. Your draft must be feature complete (i.e. not a half-done assignment) and submitted at least one week before the assignment due date - for this assignment, <strong>drafts are due by 8:45am on Monday 19 March 2018</strong>.</p>
+</div>
+<div class="paragraph">
+<p>Please email your draft to Mr Purcell for review.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="outcomes-assessment-criteria"><a class="link" href="#outcomes-assessment-criteria">Outcomes/Assessment Criteria</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>5.1.1 select and justify the application of appropriate software programs to a range of tasks</p>
+</li>
+<li>
+<p>5.2.1 describe and apply problem-solving processes when creating solutions</p>
+</li>
+<li>
+<p>5.2.2 design, produce and evaluate appropriate solutions to a range of challenging problems</p>
+</li>
+<li>
+<p>5.2.3 critically analyse decision making processes in a range of information and software solutions</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_academic_honesty"><a class="link" href="#_academic_honesty">Academic Honesty</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This course&#8217;s philosophy on academic honesty is best stated as "be reasonable." The course recognizes that interactions with classmates and others can facilitate mastery of the course&#8217;s material. However, there remains a line between enlisting the help of another and submitting the work of another. This policy characterizes both sides of that line.</p>
+</div>
+<div class="paragraph">
+<p>The essence of all work that you submit to this course must be your own. Collaboration on homework, assignments, and projects is not permitted except to the extent that you may ask classmates and others for help so long as that help does not reduce to another doing your work for you. Generally speaking, when asking for help, you may show your code to others, but you may not view theirs, so long as you and they respect this policy&#8217;s other constraints. Collaboration on the course&#8217;s final project is permitted to the extent prescribed by its specification (for example, if you choose to do the project in a group).</p>
+</div>
+<div class="paragraph">
+<p>Below are rules of thumb that (inexhaustively) characterize acts that the course considers reasonable and not reasonable. If in doubt as to whether some act is reasonable, do not commit it until you solicit and receive approval in writing from your teacher. Acts considered not reasonable by the course are handled harshly — such as an unsatisfactory or failing grade for work submitted, along with the issue of an academic detention.</p>
+</div>
+<div class="sect2">
+<h3 id="reasonable"><a class="link" href="#reasonable">Reasonable</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Communicating with classmates about questions, activities, and assignments in English (or some other spoken language).</p>
+</li>
+<li>
+<p>Discussing the course&#8217;s material with others in order to understand it better.</p>
+</li>
+<li>
+<p>Helping a classmate identify a bug in his or her code at IT tutorials or elsewhere.</p>
+</li>
+<li>
+<p>Incorporating a few lines of code that you find online or elsewhere into your own code, provided that those lines are not themselves solutions to assigned problems and that you cite/reference the lines' origins.</p>
+</li>
+<li>
+<p>Showing code that you&#8217;ve written to someone, possibly a classmate, so that he or she might help you identify and fix a bug.</p>
+</li>
+<li>
+<p>Sharing a few lines of your own code online so that others might help you identify and fix a bug.</p>
+</li>
+<li>
+<p>Turning to your teacher for help.</p>
+</li>
+<li>
+<p>Turning to the web or elsewhere for instruction beyond the course&#8217;s own, for references, and for solutions to technical difficulties, but not for outright solutions to problem set&#8217;s problems or your own final project.</p>
+</li>
+<li>
+<p>Whiteboarding solutions to problem sets with others using diagrams or pseudocode but not actual code.</p>
+</li>
+<li>
+<p>Working with (and even paying) a tutor to help you with the course, provided the tutor does not do your work for you.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="not-reasonable"><a class="link" href="#not-reasonable">Not Reasonable</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Sending someone else a large portion of your source code.</p>
+</li>
+<li>
+<p>Asking a classmate to see his or her solution to a problem before submitting your own.</p>
+</li>
+<li>
+<p>Having someone else complete all, or a substantive amount of, the work for you.</p>
+</li>
+<li>
+<p>Decompiling, deobfuscating, or disassembling the staff&#8217;s solutions.</p>
+</li>
+<li>
+<p>Failing to cite (as with comments) the origins of code or techniques that you discover outside of the course&#8217;s own lessons and integrate into your own work, even while respecting this policy&#8217;s other constraints.</p>
+</li>
+<li>
+<p>Giving or showing to a classmate a solution when they are struggling to solve it.</p>
+</li>
+<li>
+<p>Looking at another individual&#8217;s work during a test or quiz.</p>
+</li>
+<li>
+<p>Paying or offering to pay an individual for work that you may submit as (part of) your own.</p>
+</li>
+<li>
+<p>Providing or making available solutions to individuals who might take this course in the future.</p>
+</li>
+<li>
+<p>Searching for or soliciting outright solutions to activities online or elsewhere.</p>
+</li>
+<li>
+<p>Splitting a the workload with another individual and combining your work, unless the work has been specifically set as a group task.</p>
+</li>
+<li>
+<p>Submitting (after possibly modifying) the work of another individual beyond the few lines allowed herein.</p>
+</li>
+<li>
+<p>Turning to humans (besides your teacher) for help or receiving help from humans (besides your teacher) during a quiz or test.</p>
+</li>
+<li>
+<p>Viewing another&#8217;s solution to an activity and basing your own solution on it.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="footnote">Based upon Harvard University <a href="https://cs50.harvard.edu/" target="_blank">CS50&#8217;s</a> Academic Honesty Policy, used and adapted with permission. Thanks to Prof. David J. Malan.</span></p>
+</div>
 </div>
 </div>
 </div>
