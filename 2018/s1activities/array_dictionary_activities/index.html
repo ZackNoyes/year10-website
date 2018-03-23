@@ -653,181 +653,204 @@ table {
 	border-radius: 4px;
 }
         </style>
-        <title>Year 10 IST - iOS Application Development 2018</title>
+        <title>Year 10 IST - Introductory Swift Activities</title>
     </head>
     <body>
-        <a href="https://github.com/CanberraGrammar/year10-website" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
         <div id="content">
-            <h1>Year 10 IST - iOS Application Development 2018</h1>
-<div class="sect3">
-<h4 id="canberra-grammar-school"><a class="link" href="#canberra-grammar-school">Canberra Grammar School</a></h4>
+            <h1>Year 10 IST - Array and Dictionary Activities</h1>
+<div class="sect1">
+<h2 id="instructions"><a class="link" href="#instructions">Instructions</a></h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>Matthew Purcell<br>
-<a href="mailto:matthew.purcell@cgs.act.edu.au">matthew.purcell@cgs.act.edu.au</a></p>
+<p>All these tasks should be completed in separate Xcode Playgrounds files. Name each file <code>activityX.playground</code> (e.g. activity1.playground, activity2.playground, etc.).</p>
+</div>
+<div class="paragraph">
+<p>Open <strong>Xcode</strong> and click <strong>Get started with a Playground</strong></p>
+</div>
+<div class="paragraph">
+<p>Select the <strong>iOS</strong> tab and the <strong>Blank</strong> template, then click <strong>Next</strong>.</p>
+</div>
+<div class="paragraph">
+<p>Save the Playground file in a folder on your computer called <strong>Array and Dictionary Activities</strong> and name the file according to the file naming convention above (e.g. <code>activity1.playground</code>) and click <strong>Create</strong>.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="course-documents"><a class="link" href="#course-documents">Course Documents</a></h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Need help? Visit the <a href="https://forum.cgscomputing.com" target="_blank">CGS Computing Forum</a>.</p>
-</li>
-<li>
-<p><a href="course_overview/course_overview.html">Course Outline</a></p>
-</li>
-</ul>
+</div>
+<div class="sect1">
+<h2 id="hints"><a class="link" href="#hints">Hints</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It can be useful to access each individual character in a string. If you want to loop through a string and access each character it can be done using a loop:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>let sayHello = "Hello Year 10 IST";
+
+for character in sayHello {
+    print(character)
+}</pre>
 </div>
 </div>
-<div class="sect3">
-<h4 id="lesson-summaries"><a class="link" href="#lesson-summaries">Lesson Summaries</a></h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://cgs.ist/1001" target="_blank">IT1001 Google Doc</a></p>
-</li>
-<li>
-<p><a href="http://cgs.ist/1002" target="_blank">IT1002 Google Doc</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>You might also want to split a string into an array based upon a certain delimiter/seperator. This can be done using the <code>.split(separator:)</code> function on a string. For example, if you want to split a string into an array based upon the space character, then use the following code:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>let sayHello = "Hello Year 10 IST";
+let result = sayHello.split(separator: " ")
+print(result)</pre>
 </div>
 </div>
-<div class="sect3">
-<h4 id="activities"><a class="link" href="#activities">Activities</a></h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="s1activities/new_xcode_project/new_xcode_project.html">Cheat Sheet: Creating a new iOS Xcode project</a></p>
-</li>
-<li>
-<p><a href="https://github.com/CanberraGrammar/year10-activities/tree/AutoLayoutActivity1" target="_blank">Auto Layout Activity 1 (Hello!)</a></p>
-</li>
-<li>
-<p><a href="https://github.com/CanberraGrammar/year10-activities/tree/AutoLayoutActivity2" target="_blank">Auto Layout Activity 2 (Head First Lounge)</a></p>
-</li>
-<li>
-<p><a href="https://github.com/CanberraGrammar/year10-activities/tree/AutoLayoutActivity3" target="_blank">Auto Layout Activity 3 (Instogram)</a></p>
-</li>
-<li>
-<p><a href="https://github.com/CanberraGrammar/year10-activities/tree/AutoLayoutChallenge1" target="_blank">Auto Layout Challenge 1 (Instogram Profile)</a></p>
-</li>
-<li>
-<p><a href="resources/javascript-to-swift.pdf">Guide: JavaScript to Swift Transition Guide</a></p>
-</li>
-<li>
-<p><a href="s1activities/introductory_swift_activities/index.html">Introductory Swift Activities</a></p>
-</li>
-<li>
-<p><a href="s1activities/array_dictionary_activities/index.html">Array and Dictionary Activities</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>which will print an array which looks like <code>["Hello", "Year", "10", "IST"]</code>.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="videos"><a class="link" href="#videos">Videos</a></h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.youtube.com/watch?v=LRiSk9tk2kc" target="_blank">Storyboard and Scroll View</a></p>
-</li>
-<li>
-<p><a href="https://www.youtube.com/watch?v=irqY5T4Lkj4" target="_blank">Zoomable Image View using Scroll View</a></p>
-</li>
-</ul>
+</div>
+<div class="sect1">
+<h2 id="task-one-array"><a class="link" href="#task-one-array">Task One (Array)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Your program stores a string in a variable <code>input</code>. You need to write code which will then determine the number of words in the string.</p>
+</div>
+<div class="paragraph">
+<p>For example, if <code>string</code> is <code>how many words are in this string</code> then the output would be <code>7</code>, as there&#8217;s 7 words in the string.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="sample-code"><a class="link" href="#sample-code">Sample Code</a></h4>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="sample_code/ZoomScrollView.zip">Zoomable Image View using Scroll View</a></p>
-</li>
-</ul>
+</div>
+<div class="sect1">
+<h2 id="task-two-array"><a class="link" href="#task-two-array">Task Two (Array)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Your program stores a string in a variable <code>input</code>. You need to write code which will then determine the longest word in the string.</p>
+</div>
+<div class="paragraph">
+<p>For example, if <code>string</code> is <code>what is the longest word in this string</code> then the output would be <code>longest</code>, as that&#8217;s the longest word in the string.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="assessment-tasks"><a class="link" href="#assessment-tasks">Assessment Tasks</a></h4>
-<div class="sect4">
-<h5 id="semester-one"><a class="link" href="#semester-one">Semester One</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 26.6666%;">
-<col style="width: 33.3333%;">
-<col style="width: 6.6668%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Task</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Published</strong></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>Due</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Weight</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong><a href="s1assign1/index.html">Assignment: CGS Visitor App</a></strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Friday 16 February 2018 (Week 2)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 26 March 2018 (Week 8) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">35%</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Assignment: UIKit Game Development</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 26 March 2018 (Week 8)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Tuesday 22 May 2018 (Week 14) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">45%</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Common Test: Fundamentals of Swift</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 14 May 2018 (Week 13)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>IT1001:</strong> Tuesday 12 June 2018, P1 (Week 17)
-<strong>IT1002:</strong> Wednesday 13 June 2018, P1 (Week 17)</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">20%</p></td>
-</tr>
-</tbody>
-</table>
 </div>
-<div class="sect4">
-<h5 id="semester-two"><a class="link" href="#semester-two">Semester Two</a></h5>
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 26.6666%;">
-<col style="width: 33.3333%;">
-<col style="width: 6.6668%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Task</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Published</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Due</strong></p></td>
-<td class="tableblock halign-center valign-top" style="background-color: white;"><p class="tableblock"><strong>Weight</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Assignment: SpriteKit Game Development</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 30 July 2018 (Week 2)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Tuesday 4 September 2018 (Week 7) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">30%</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Assignment: Major Project Proposal</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 3 September 2018 (Week 7)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Friday 14 September 2018 (Week 8) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">10%</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Assignment: Major Project Status Update</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 3 September 2018 (Week 7)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Friday 19 October 2018 (Week 11) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">10%</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock"><strong>Assignment: Major Project Implementation</strong></p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 3 September 2018 (Week 7)</p></td>
-<td class="tableblock halign-left valign-middle" style="background-color: white;"><p class="tableblock">Monday 5 November 2018 (Week 14) by 8:45am</p></td>
-<td class="tableblock halign-center valign-middle" style="background-color: white;"><p class="tableblock">50%</p></td>
-</tr>
-</tbody>
-</table>
+<div class="sect1">
+<h2 id="task-three-array"><a class="link" href="#task-three-array">Task Three (Array)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Your program stores a word in a variable <code>word</code>. You need to write code which will then determine whether the word is the same forward and backwards (i.e. it&#8217;s a palindrome).</p>
+</div>
+<div class="paragraph">
+<p>For example, if <code>word</code> is <code>Hannah</code> then the output would be <code>yes</code>, as Hannah is a palindrome (make sure you make your program case insensitive!).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="task-four-array"><a class="link" href="#task-four-array">Task Four (Array)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Your program stores a string in a variable <code>input</code>. This string only contains x and o characters. You need to write code which will determine whether there are an equal number of <code>x&#8217;s and `o&#8217;s in the string. If so, it should print `Equal</code> otherwise it should print <code>Not Equal</code>.</p>
+</div>
+<div class="paragraph">
+<p>For example, if <code>input</code> is <code>xxxoxoooxoxo</code> then it should print <code>Equal</code> since there&#8217;s an equal number of `x&#8217;s and `o&#8217;s in the string.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="task-five-dictionary"><a class="link" href="#task-five-dictionary">Task Five (Dictionary)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You are given an array of strings, such as:</p>
+</div>
+<div class="paragraph">
+<p><code>SCHOOL, COMPUTER, BOY, CAT, HOUSE, BOY, BOOK, COMPUTER, SCHOOL, SCHOOL</code></p>
+</div>
+<div class="paragraph">
+<p>You need to write a <strong>function</strong> which will count the number of times each unique word appears in the array.</p>
+</div>
+<div class="paragraph">
+<p>In the above example, the output may be:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>SCHOOL: 3
+HOUSE: 1
+BOOK: 1
+CAT: 1
+BOY: 2
+COMPUTER: 2</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note, the order can differ to the above as the order of the outputted items does not matter.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="task-six-dictionary"><a class="link" href="#task-six-dictionary">Task Six (Dictionary)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You are given an array of strings, such as:</p>
+</div>
+<div class="paragraph">
+<p><code>SCHOOL, COMPUTER, BOY, CAT, HOUSE, BOY, BOOK, COMPUTER, SCHOOL, SCHOOL</code></p>
+</div>
+<div class="paragraph">
+<p>You need to write a function which return an array only with unique items.</p>
+</div>
+<div class="paragraph">
+<p>In the above example, the following array may be returned:</p>
+</div>
+<div class="paragraph">
+<p><code>SCHOOL, HOUSE, COMPUTER, BOOK, BOY, CAT</code></p>
+</div>
+<div class="paragraph">
+<p>As with the previous activity, the order can differ to the above as the order of the outputted items does not matter.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="task-seven-dictionary"><a class="link" href="#task-seven-dictionary">Task Seven (Dictionary)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The same as Task Six, but you must preserve the order of the items in the resultant array. Based upon the example data in Task Six, the returned array must be:</p>
+</div>
+<div class="paragraph">
+<p><code>SCHOOL, COMPUTER, BOY, CAT, HOUSE, BOOK</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="task-eight-dictionary"><a class="link" href="#task-eight-dictionary">Task Eight (Dictionary)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Given two strings, write a function which will determine whether one is a permutation of the other.</p>
+</div>
+<div class="paragraph">
+<p>A permutation is a rearrangement of letters.</p>
+</div>
+<div class="paragraph">
+<p>For example, if you are given the strings "qwertty" and "wetytrq" it should return true.</p>
+</div>
+<div class="paragraph">
+<p>On the other hand, if you are given the strings "qwertty" and "wetyra" it should return false.</p>
+</div>
+<div class="paragraph">
+<p>You can assume there will be no spaces in the word.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="extension-task-dictionary"><a class="link" href="#extension-task-dictionary">Extension Task (Dictionary)</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Given a string, write a function to check if it&#8217;s a permutation of a palindrome.</p>
+</div>
+<div class="paragraph">
+<p>A palindrome is a word or phrase that is the same forwards and backwards.</p>
+</div>
+<div class="paragraph">
+<p>A permutation is a rearrangement of letters.</p>
+</div>
+<div class="paragraph">
+<p>The palindrome does not need to be limited to just dictionary words.</p>
+</div>
+<div class="paragraph">
+<p>For example, if the input is "tact coa" then it should return true - as permutations which are palindromes are "taco cat", "atco cta", etc.</p>
+</div>
 </div>
 </div>
         </div>
